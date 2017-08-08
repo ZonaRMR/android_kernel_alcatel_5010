@@ -89,8 +89,8 @@ static const char longname[] = "Gadget Android";
 #define MIDI_QUEUE_LENGTH   32
 
 /* Default manufacturer and product string , overridden by userspace */
-#define MANUFACTURER_STRING "MediaTek"
-#define PRODUCT_STRING "MT65xx Android Phone"
+#define MANUFACTURER_STRING "Alcatel"
+#define PRODUCT_STRING "Pixi 4(5) 5010"
 
 
 //#define USB_LOG "USB"
