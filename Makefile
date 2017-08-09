@@ -1,6 +1,6 @@
 VERSION = 3
 PATCHLEVEL = 18
-SUBLEVEL = 19+
+SUBLEVEL = 19
 EXTRAVERSION =
 NAME = Shuffling Zombie Juror
 
@@ -970,7 +970,7 @@ PHONY += prepare archprepare prepare0 prepare1 prepare2 prepare3
 
 # prepare3 is used to check if we are building in a separate output directory,
 # and if so do:
-# 1) Check that make has not been executed in the kernel src $(srctree)
+# 1) Check that make has not been executed in the kernel src $(src1 | grep -c tree)
 prepare3: include/config/kernel.release
 ifneq ($(KBUILD_SRC),)
 	@$(kecho) '  Using $(srctree) as source for kernel'
